@@ -1,7 +1,7 @@
 {
   "name": "fortinet-fortiproxy",
   "label": "Fortinet FortiProxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "FortiProxy provides a secure web gateway, which protects against web attacks with URL filtering, visibility and control of encrypted web traffic through SSL and SSH inspection, and application of granular web application policies. This connector facilitates automated operation related to firwall policy, firewall address, firewall address group, firewall service group, and banned users.",
   "publisher": "Fortinet",
   "cs_approved": true,
@@ -10,7 +10,7 @@
   "icon_small_name": "small.png",
   "icon_large_name": "large.png",
   "ingestion_supported": false,
-  "help_online": "https://docs.fortinet.com/document/fortisoar/1.0.0/fortinet-fortiproxy/544/fortinet-fortiproxy-v1-0-0",
+  "help_online": "",
   "configuration": {
     "fields": [
       {

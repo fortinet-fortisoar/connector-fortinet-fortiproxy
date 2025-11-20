@@ -1,8 +1,9 @@
-""" Copyright start
-  Copyright (C) 2008 - 2023 Fortinet Inc.
-  All rights reserved.
-  FORTINET CONFIDENTIAL & FORTINET PROPRIETARY SOURCE CODE
-  Copyright end """
+"""
+Copyright start
+MIT License
+Copyright (c) 2025 Fortinet Inc
+Copyright end
+"""
 
 import requests, json
 from connectors.core.connector import ConnectorError, get_logger
@@ -24,9 +25,9 @@ class FortiProxy(object):
     def make_rest_call(self, url, method, data=None, params=None):
         try:
             url = self.url + url
-            params.update({'access_token': self.apikey})
             headers = {
-                'Accept': 'application/json'
+                'Accept': 'application/json',
+                'Authorization': f'Bearer {self.apikey}'
             }
             logger.debug("Endpoint {0}".format(url))
             response = requests.request(method, url, data=data, params=params, headers=headers, verify=self.verify_ssl)

@@ -3,7 +3,7 @@
   "data": [
     {
       "@type": "WorkflowCollection",
-      "name": "Sample - Fortinet FortiProxy - 1.0.0",
+      "name": "Sample - Fortinet FortiProxy - 1.0.1",
       "description": "Sample playbooks for \"Fortinet FortiProxy\" connector. If you are planning to use any of the sample playbooks in your environment, ensure that you clone those playbooks and move them to a different collection, since the sample playbook collection gets deleted during connector upgrade and delete.",
       "visible": true,
       "image": null,
@@ -45,7 +45,7 @@
                   "name": "Sample Address Group",
                   "vdom": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "delete_firewall_address_group",
                 "operationTitle": "Delete Firewall Address Group",
@@ -138,7 +138,7 @@
                 "name": "Fortinet FortiProxy",
                 "config": "",
                 "params": [],
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "get_firewall_address",
                 "operationTitle": "Get Firewall Address",
@@ -250,7 +250,7 @@
                   "access-proxy": "",
                   "custom_attributes": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "create_firewall_policy",
                 "operationTitle": "Create Firewall Policy",
@@ -351,7 +351,7 @@
                   "with_meta": "",
                   "datasource": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "get_firewall_address_group_details",
                 "operationTitle": "Get Firewall Address Group Details",
@@ -452,7 +452,7 @@
                   "with_meta": "",
                   "datasource": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "get_firewall_policy_details",
                 "operationTitle": "Get Firewall Policy Details",
@@ -575,7 +575,7 @@
                   "expiry": 0,
                   "ip_addresses": "8.8.8.8"
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "add_users_to_banned_list",
                 "operationTitle": "Add Users to Banned List",
@@ -644,7 +644,7 @@
                   "name": "Sample Service Group",
                   "vdom": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "delete_firewall_service_group",
                 "operationTitle": "Delete Firewall Service Group",
@@ -772,7 +772,7 @@
                   "with_meta": "",
                   "datasource": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "get_firewall_service_group_details",
                 "operationTitle": "Get Firewall Service Group Details",
@@ -804,7 +804,7 @@
                   "member": "",
                   "fabric-object": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "update_firewall_service_group",
                 "operationTitle": "Update Firewall Service Group",
@@ -915,7 +915,7 @@
                   "member": "",
                   "fabric-object": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "create_firewall_service_group",
                 "operationTitle": "Create Firewall Service Group",
@@ -984,7 +984,7 @@
                   "name": "Sample Address",
                   "vdom": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "delete_firewall_address",
                 "operationTitle": "Delete Firewall Address",
@@ -1077,7 +1077,7 @@
                 "name": "Fortinet FortiProxy",
                 "config": "",
                 "params": [],
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "get_firewall_policy",
                 "operationTitle": "Get Firewall Policy",
@@ -1199,7 +1199,7 @@
                 "params": {
                   "ip_addresses": "1.1.1.1"
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "clear_banned_users_list_by_ip",
                 "operationTitle": "Clear Banned Users List by IP",
@@ -1265,7 +1265,7 @@
                 "name": "Fortinet FortiProxy",
                 "config": "",
                 "params": [],
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "get_firewall_service_group_details",
                 "operationTitle": "Get Firewall Service Group Details",
@@ -1358,7 +1358,7 @@
                 "name": "Fortinet FortiProxy",
                 "config": "",
                 "params": [],
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "get_firewall_service_group",
                 "operationTitle": "Get Firewall Service Group",
@@ -1456,7 +1456,7 @@
                   "count": "",
                   "start": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "get_authenticated_firewall_users_list",
                 "operationTitle": "Get Authenticated Firewall Users List",
@@ -1584,7 +1584,7 @@
                   "user_type": "firewall",
                   "ip_version": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "deauthenticate_firewall_users",
                 "operationTitle": "DeAuthenticate Firewall Users",
@@ -1668,7 +1668,7 @@
                   "clearpass-spt": "",
                   "custom_attributes": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "update_firewall_address",
                 "operationTitle": "Update Firewall Address",
@@ -1699,7 +1699,7 @@
                   "with_meta": "",
                   "datasource": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "get_firewall_address_details",
                 "operationTitle": "Get Firewall Address Details",
@@ -1821,7 +1821,7 @@
                   "access-proxy": "",
                   "custom_attributes": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "update_firewall_policy",
                 "operationTitle": "Update Firewall Policy",
@@ -1852,7 +1852,7 @@
                   "with_meta": "",
                   "datasource": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "get_firewall_policy_details",
                 "operationTitle": "Get Firewall Policy Details",
@@ -1956,7 +1956,7 @@
                   "vdom": "",
                   "policyid": 8
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "delete_firewall_policy",
                 "operationTitle": "Delete Firewall Policy",
@@ -2084,7 +2084,7 @@
                   "with_meta": "",
                   "datasource": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "get_firewall_address_details",
                 "operationTitle": "Get Firewall Address Details",
@@ -2177,7 +2177,7 @@
                 "name": "Fortinet FortiProxy",
                 "config": "",
                 "params": [],
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "clear_all_banned_users_list",
                 "operationTitle": "Clear All Banned Users List",
@@ -2259,7 +2259,7 @@
                   "fabric-object": "",
                   "exclude-member": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "create_firewall_address_group",
                 "operationTitle": "Create Firewall Address Group",
@@ -2352,7 +2352,7 @@
                 "name": "Fortinet FortiProxy",
                 "config": "",
                 "params": [],
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "get_firewall_address_group",
                 "operationTitle": "Get Firewall Address Group",
@@ -2489,7 +2489,7 @@
                   "fabric-object": "",
                   "exclude-member": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "update_firewall_address_group",
                 "operationTitle": "Update Firewall Address Group",
@@ -2520,7 +2520,7 @@
                   "with_meta": "",
                   "datasource": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "get_firewall_address_group_details",
                 "operationTitle": "Get Firewall Address Group Details",
@@ -2594,7 +2594,7 @@
                 "name": "Fortinet FortiProxy",
                 "config": "",
                 "params": [],
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "get_all_banned_users_list",
                 "operationTitle": "Get All Banned Users List",
@@ -2730,7 +2730,7 @@
                   "clearpass-spt": "",
                   "custom_attributes": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "fortinet-fortiproxy",
                 "operation": "create_firewall_address",
                 "operationTitle": "Create Firewall Address",
